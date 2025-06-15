@@ -164,6 +164,14 @@
         }, 400); // tiempo igual al fade out
       });
     });
+    
+    window.addEventListener('pageshow', (event) => {
+  if (event.persisted) {
+    // La página viene del caché del navegador (botón atrás)
+    document.body.style.opacity = '1';
+  }
+});
+    
   </script>
 </body>
 </html>
