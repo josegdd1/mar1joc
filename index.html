@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mar1joc</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0.2em 0 0;
+    }
+
+    .emoji {
+      font-size: 2rem;
+      margin-bottom: 2em;
+    }
+
+    .button {
+      width: 80%;
+      max-width: 300px;
+      padding: 1em;
+      margin: 0.8em 0;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .blue {
+      background-color: #334C6A;
+    }
+
+    .red {
+      background-color: #E74C3C;
+    }
+
+    .purple {
+      background-color: #8E44AD;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>mar1joc</h1>
+  <div class="emoji">👩🏽‍❤️‍👨🏻</div>
+
+  <button class="button blue" onclick="location.href='https://josegdd1.github.io/songs/'">Canciones</button>
+  <button class="button red" onclick="location.href='https://josegdd1.github.io/Chucher-as-/'">Chucherías</button>
+  <button class="button purple" onclick="location.href='https://josegdd1.github.io/peliculas/'">Películas</button>
+
+</body>
+</html>
